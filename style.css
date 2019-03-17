@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    border: solid greenyellow 1px;
+}
+.title {
+    display: flex;
+    width: 25%;
+    min-height: fit-content;
+    border: dotted 1px;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+    /*flex-grow: 1;*/
+}
+.menu {
+    display: flex;
+    height: 100px;
+    width:75%;
+    /*border: solid 1px;*/
+    justify-content: flex-end;
+}
+.menu div {
+    display: flex;
+    background: aqua;
+    width:300px;
+    border: solid 1px;
+    align-items: center;
+    justify-content: center;
+    /*flex-grow: 1;*/
+}
+.p {
+    font-family: Arial;
+}
+nav {
+    width: 25%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav div {
+    border: solid 1px;
+    padding: initial;
+    background: yellowgreen;
+    /*height: 30%;*/
+    flex-grow: 1;
+}
+.news {
+    display: flex;
+    height: 10%;
+    min-height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue;
+}
+article {
+    display: flex;
+    border: dotted darkorchid 1px;
+    height: 300px;
+    /*width: 1400px;*/
+    background: yellow;
+    justify-content: flex-end;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+span {
+    display: inline-block;
+    background: springgreen;
+    height: fit-content;
+    border: solid 1px;
+    border-radius: 5px;
+}
+article p {
+    display: inline-block;
+    /*margin:  50px;*/
+    /*position: relative;*/
+    text-align: center;
+    margin:  auto;
+
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    border: blue 1px solid;
+    justify-content: center;
+    align-items: center;
+    background: darkorchid;
+    background: darkorchid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: stretch;*/
+    justify-content: flex-start;
+    width:75%;
+}
