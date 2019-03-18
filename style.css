@@ -23,16 +23,23 @@ header {
     height: 100px;
     width:75%;
     /*border: solid 1px;*/
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .menu div {
     display: flex;
-    background: aqua;
-    width:300px;
+    /* background: aqua; */
+    width: 20%;
     border: solid 1px;
     align-items: center;
     justify-content: center;
-    /*flex-grow: 1;*/
+    /* flex-grow: 2; */
+    min-width: fit-content;
+}
+.picture {
+    background-image: url("./img/chameleon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-grow: 1;
 }
 .p {
     font-family: Arial;
