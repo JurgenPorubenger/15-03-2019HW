@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: center;
     background: coral;
+    text-align: center;
     /*flex-grow: 1;*/
 }
 .menu {
@@ -27,7 +28,7 @@ header {
 }
 .menu div {
     display: flex;
-    /* background: aqua; */
+    background: aqua;
     width: 20%;
     border: solid 1px;
     align-items: center;
@@ -36,10 +37,11 @@ header {
     min-width: fit-content;
 }
 .picture {
-    background-image: url("./img/chameleon.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    flex-grow: 1;
+    /* background: url("./img/chameleon.jpg") no-repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* flex-grow: 1; */
+
 }
 .p {
     font-family: Arial;
